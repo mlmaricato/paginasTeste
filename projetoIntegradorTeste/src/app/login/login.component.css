@@ -1,4 +1,121 @@
-.corFundoLogin{
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box  /*  A propriedade CSS box-sizing é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos.
+     */
+
+}
+
+.imagemFundo{
+    background: url(https://i.imgur.com/zifBl8K.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh = faz com que a imagem ocupe uma tela */
+}
+
+h2{
+    font-size: 30px;
+    color: #dcdbd1;
+    text-align: center;
+    margin: 20px;
+}
+
+.container{
+    width: 350 px;
+    background: rgba(0, 0, 0, 0.527); /* 0.527 = deixar transparente */
+    border-radius: 20px; 
+    box-shadow: 1px 2px 10px #000, 3px  6px 20px #000;
+    padding: 50px 20px;
+}
+
+.backgroundInput{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #dcdbd1;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+
+.form-group{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+label{
+    /* position: absolute; */
+    top:0;
+    left:0;
+    color:#dcdbd1;
+    margin-left: 1px;
+    
+}
+
+.fa{
+    padding: 2px;
+    color: #dcdbd1;
+    margin-bottom: 5px;
+
+    
+    
+}
+
+input:focus{
+    border: 2px solid #eca6e3;
+    box-shadow: 0 1px 0 0 #eca6e3 ;
+}
+
+input::placeholder{
+    color: #dcdbd1;
+    margin: 10%;
+}
+
+button{
+    padding: 10px 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid #dcdbd1;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease-in-out .25s;
+
+}
+
+button:hover{
+    background: rgba(243, 195, 195, 0.411);
+}
+
+.links-uteis{
+    color: rgba(245, 192, 192, 0.856);
+}
+
+a{
+    text-decoration: none;
+    color: #dcdbd1;
+    margin-right: 10px;
+}
+a:hover{
+    color:rgba(42, 236, 210, 0.856);
+    transition: ease-in-out .25s;
+}
+
+
+
+
+
+
+
+
+/* .corFundoLogin{
     background-color: #cfb1d6;
 }
 
@@ -7,7 +124,7 @@
 }
  */
 
-#img-bg{
+/* #img-bg{
     background-image: url('https://i.imgur.com/RisVM9S.png');
     
     min-height: 695px;
@@ -72,7 +189,7 @@
 .login{
     text-align: center;
     padding-top: 25px;
-}
+} */
 
 
  
